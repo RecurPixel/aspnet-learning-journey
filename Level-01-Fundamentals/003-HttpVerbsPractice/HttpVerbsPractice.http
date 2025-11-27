@@ -1,0 +1,36 @@
+@App_HostAddress = https://localhost:7007
+
+GET {{App_HostAddress}}/api/numbers/
+Accept: application/json
+
+###
+
+GET {{App_HostAddress}}/api/numbers/3
+Accept: application/json
+
+###
+
+DELETE  {{App_HostAddress}}/api/numbers/3
+Accept: application/json
+
+###
+
+POST  {{App_HostAddress}}/api/numbers
+Accept: application/json
+Content-Type: application/json
+
+{
+    "number": 60
+}
+
+###
+
+PUT  {{App_HostAddress}}/api/numbers/1
+Accept: application/json
+Content-Type: application/json
+
+{
+    "number": 25
+}
+
+###
