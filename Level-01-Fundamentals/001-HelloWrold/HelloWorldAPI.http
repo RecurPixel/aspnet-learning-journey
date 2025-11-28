@@ -1,6 +1,0 @@
-@HelloWorldAPI_HostAddress = https://localhost:5001
-
-GET {{HelloWorldAPI_HostAddress}}/
-Accept: application/json
-
-###

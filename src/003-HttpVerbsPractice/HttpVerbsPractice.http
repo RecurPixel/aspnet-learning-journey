@@ -19,9 +19,7 @@ POST  {{App_HostAddress}}/api/numbers
 Accept: application/json
 Content-Type: application/json
 
-{
-    "number": 60
-}
+60
 
 ###
 
@@ -29,8 +27,6 @@ PUT  {{App_HostAddress}}/api/numbers/1
 Accept: application/json
 Content-Type: application/json
 
-{
-    "number": 25
-}
+25
 
 ###

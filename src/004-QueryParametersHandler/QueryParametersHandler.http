@@ -1,0 +1,21 @@
+@QueryParametersHandler_HostAddress = https://localhost:7166
+
+GET {{QueryParametersHandler_HostAddress}}/api/search?term=Laptop
+Accept: application/json
+
+###
+
+GET {{QueryParametersHandler_HostAddress}}/api/search?term=Laptop&minPrice=120
+Accept: application/json
+
+###
+
+GET {{QueryParametersHandler_HostAddress}}/api/search?term=Laptop&maxPrice=220
+Accept: application/json
+
+###
+
+GET {{QueryParametersHandler_HostAddress}}/api/search?minPrice=300&maxPrice=1000
+Accept: application/json
+
+###
