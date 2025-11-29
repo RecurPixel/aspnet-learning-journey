@@ -1,0 +1,22 @@
+@RequestResponseModels_HostAddress = https://localhost:7076
+
+GET {{RequestResponseModels_HostAddress}}/api/students
+Accept: application/json
+
+###
+
+GET {{RequestResponseModels_HostAddress}}/api/students/1001
+Accept: application/json
+
+###
+
+POST {{RequestResponseModels_HostAddress}}/api/students
+Content-Type: application/json
+
+{
+    "FirstName" : "Jhon",
+    "LastName" : "Doe",
+    "Age" : 89
+}
+
+###

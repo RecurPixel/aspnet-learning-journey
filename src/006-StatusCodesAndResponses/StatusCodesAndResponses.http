@@ -1,0 +1,32 @@
+@StatusCodesAndResponses_HostAddress = https://localhost:7279
+
+GET {{StatusCodesAndResponses_HostAddress}}/api/status/success
+Accept: application/json
+
+###
+
+GET {{StatusCodesAndResponses_HostAddress}}/api/status/bad
+Accept: application/json
+
+###
+
+GET {{StatusCodesAndResponses_HostAddress}}/api/status/200
+Accept: application/json
+
+###
+
+POST {{StatusCodesAndResponses_HostAddress}}/api/status
+Content-Type: application/json
+
+{
+    "Name" : "Success",
+    "Code" : 200 
+}
+
+###
+
+GET  {{StatusCodesAndResponses_HostAddress}}/api/status/serverError
+Accept: : application/json
+
+
+###

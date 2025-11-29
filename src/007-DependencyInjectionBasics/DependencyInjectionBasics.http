@@ -1,0 +1,11 @@
+@DependencyInjectionBasics_HostAddress = https://localhost:7126
+
+GET {{DependencyInjectionBasics_HostAddress}}/
+Accept: application/json
+
+###
+
+GET {{DependencyInjectionBasics_HostAddress}}/test
+Accept: application/json
+
+###
