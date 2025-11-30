@@ -140,7 +140,7 @@ Example: `/api/search?term=laptop&minPrice=500&maxPrice=1500`
 
 ---
 
-### Problem 8: Configuration and appsettings.json
+### ✅ Problem 8: Configuration and appsettings.json
 
 **Topics:** IConfiguration, appsettings.json, Options pattern
 
@@ -162,7 +162,7 @@ Example: `/api/search?term=laptop&minPrice=500&maxPrice=1500`
 
 ---
 
-### Problem 9: Middleware Basics
+### ✅ Problem 9: Middleware Basics
 
 **Topics:** app.Use(), middleware pipeline, request/response manipulation
 
