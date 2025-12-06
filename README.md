@@ -178,7 +178,7 @@ Example: `/api/search?term=laptop&minPrice=500&maxPrice=1500`
 
 ---
 
-### Problem 10: Simple API with Multiple Controllers
+### ✅ Problem 10: Simple API with Multiple Controllers
 
 **Topics:** Integration of previous concepts
 
